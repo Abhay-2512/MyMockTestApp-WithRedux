@@ -24,9 +24,8 @@ own Question Paper and Examine Result Analysis
 
 
 Guidelines to run MocktestApp Project
-1. install NodeJs and NPM on your VsCode(any IDE)
-2. install: npm install react react-redux
-3. install : npm i @reduxjs/toolkit
-4. install: npm i node-modules
-5. install: npm i -g josn-server
-6. to watch json file run : npx json-server --watch db.json --port 3006
+
+1. install: npm install
+2. install: npm i -g json-server
+3. to watch json file run : npx json-server --watch db.json --port 3006
+4. Ready to Use MockTest App
