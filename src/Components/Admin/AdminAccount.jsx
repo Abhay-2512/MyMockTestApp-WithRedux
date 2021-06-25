@@ -30,8 +30,6 @@ const showCandidateDetails=(e)=>{
  let userId=e.target.id;
 
   history.push(`/user/:${userId}`)
-  
-
 }
 
  //Admin Varification 
@@ -54,9 +52,7 @@ const showCandidateDetails=(e)=>{
       // Update that changes Status On Server  
       axios.put(`${URL2}/${myUserId}`, { ...myCandidate, Status: newStatus })
         .then((respo) => {
-          // console.log(respo.data);
           dispatch(reloadVerifiedByAdmin(respo.data))
-        //   setVerifiedByAdmin([respo.data])
         }).catch((error) => console.log(error));
     }).catch((err) => {
       toast.error(err, {

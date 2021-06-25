@@ -25,7 +25,6 @@ function MyExamPrint({ values }) {
     let myScore = (counter - ((Answered.length - counter) / 3)).toFixed(2);
 
     const genertePdf = () => {
-
         const element = document.getElementById("demo");
         const Options = { filename: 'abhaybokade.pdf' }
         domToPdf(element, Options, () => {
