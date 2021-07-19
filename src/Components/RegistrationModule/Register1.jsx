@@ -32,7 +32,7 @@ let myReg = {
 
 function Register1() {
 
-     // State To Store the User Info For LogIn Examination
+  // State To Store the User Info For LogIn Examination
   const [RegData, setRegData] = useState(myReg);
 
     

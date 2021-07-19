@@ -33,7 +33,7 @@ function MyResult() {
                 <h2>Total Questions Correct    = {counter}</h2>
                 <div className="d-flex flex-row justify-content-evenly h-auto my-5">
                 <div className="text-center my-5">
-                    <div className="myRound">{` ${Answered.length}/${MyAnswers.length}`}</div>
+                    <div className="myRound">{`${Answered.length}/${MyAnswers.length}`}</div>
                     <h2>Attempted</h2>
                 </div>
                 <div className="text-center my-5">
@@ -48,9 +48,7 @@ function MyResult() {
                     <div className="myRound">{myScore}</div>
                     <h2>Score</h2>
                 </div>
-
                 </div>
-
             </div>
             <div className="w-25 mx-auto py-2 my-2 text-center">
             <Link to="/register"><button className="btn btn-success p-1" >Back To Home page</button></Link>
